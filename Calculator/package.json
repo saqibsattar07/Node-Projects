@@ -1,0 +1,17 @@
+{
+  "name": "ss6k3-simple-calculator",
+  "version": "1.0.1",
+  "description": "A simple calculator made with TypeScript, Node.js and Inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saqib Sattar",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.16"
+  }
+}
