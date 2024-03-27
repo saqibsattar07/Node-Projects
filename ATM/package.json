@@ -1,0 +1,20 @@
+{
+  "name": "@saqib_sattar06/atm",
+  "version": "1.0.1",
+  "description": "Create an ATM using TypeScript and Node.js, integrating the inquirer library for user interaction.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saqib Sattar",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.16"
+  }
+}
