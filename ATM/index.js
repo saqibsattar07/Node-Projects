@@ -45,7 +45,13 @@ if (pinAnswer.pin === myPin) {
                 choices: fastcashOptions.map(amount => `${amount}`)
             }
         ]);
-        console.log("Select FastCash option", fastcashAnswer.option);
+        if (fastcashAnswer.option <= myBalance) {
+            myBalance -= fastcashAnswer.option;
+            console.log("FastCash transaction successful. Your remaining balance is:" + myBalance);
+        }
+        else {
+            console.log("Insufficient balance for FastCash transaction.");
+        }
     }
     else if (operationAnswer.operation === "Transfer of funds") {
         console.log("Transfer of funds functionality coming soon...");
