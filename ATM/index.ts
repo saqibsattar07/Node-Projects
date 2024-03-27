@@ -41,7 +41,18 @@ let myPin = 75584;
                 console.log("Your remaining balance is:" + myBalance);
             }
         } else if (operationAnswer.operation === "FastCash") {
-            console.log("FastCash functionality coming soon...");
+            let fastcashOptions = [5000,10000,20000,30000,50000];
+            let fastcashAnswer = await inquirer.prompt([
+                {
+                    name: "option",
+                    message: "Select FastCash amount",
+                    type: "list",
+                    choices: fastcashOptions.map(amount => `${amount}`)
+
+                }
+            ])
+            console.log("Select FastCash option", fastcashAnswer.option)
+
         } else if (operationAnswer.operation === "Transfer of funds") {
             console.log("Transfer of funds functionality coming soon...");
         } else if (operationAnswer.operation === "Balance Inquiry") {
