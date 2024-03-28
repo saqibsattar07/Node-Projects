@@ -1,6 +1,6 @@
 {
-  "name": "@saqib_sattar06/atm",
-  "version": "3.0.2",
+  "name": "@saqib_sattar06/atm_machine",
+  "version": "2.0.1",
   "description": "Create an ATM using TypeScript and Node.js, integrating the inquirer library for user interaction.",
   "main": "index.js",
   "type": "module",
