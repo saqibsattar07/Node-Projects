@@ -1,6 +1,6 @@
 {
   "name": "@saqib_sattar06/todo-list-app",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "This is the CLI based Project \"Todo list App\" made with TypeScript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",
@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/inquirer": "^9.0.7",
+    "chalk": "^5.3.0",
     "inquirer": "^9.2.17"
   }
 }
