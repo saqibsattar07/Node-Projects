@@ -1,6 +1,6 @@
 {
   "name": "saqii7_number_guessing_game",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is the CLI based Project made with TypeScript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",

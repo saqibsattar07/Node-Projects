@@ -1,4 +1,4 @@
-#! /usr/bin/evn node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 // 1) The Computer will produce a random number
 // 2) The user will guess the number
