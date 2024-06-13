@@ -1,0 +1,18 @@
+{
+  "name": "saqii_countdown_timer",
+  "version": "1.0.1",
+  "description": "This is the CLI based project \"countdown_timer\"",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saqib Sattar",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.23"
+  }
+}
