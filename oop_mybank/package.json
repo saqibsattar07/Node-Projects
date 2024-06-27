@@ -1,13 +1,13 @@
 {
   "name": "@saqib_sattar06/oop_mybank",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is the CLI based project \"Opp_Mybank\" made with TypeScript, Node.js & Inquirer",
   "main": "index.js",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
-  "bin": "index.js",
+  "bin": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
